@@ -11,10 +11,15 @@
 ## Argument Variables
 
 `\$1`...`\$n`: positional arguments
+
 `$*`: all arguments
+
 `$#`: number of arguments
+
 `$?`: exit status of last command
+
 `${#variable}`: length of string variable
+
 
 ## Executing commands
 `$(...)`
