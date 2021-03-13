@@ -10,9 +10,11 @@
 
 ## Argument Variables
 
-`\$1`...`\$n` : positional arguments
-`$*` all arguments
-`$#` number of arguments
+`\$1`...`\$n`: positional arguments
+`$*`: all arguments
+`$#`: number of arguments
+`$?`: exit status of last command
+`${#variable}`: length of string variable
 
 ## Executing commands
 `$(...)`
@@ -45,3 +47,15 @@ Examples:
 - `[[ $str = "x" ]]`: tests whether `$str` is equal to `x`.
 - `[[ -e $filename ]]`: tests whether `$filename` exists.
 - `[[ -d $directory ]]`: tests whether `$directory` exists.
+
+### Arithmetic Tests
+`[[ arg1 operator arg2 ]]`
+#### Operators:
+- `-eq`: equal.
+- `-ne`: not equal.
+- `-lt`: less than.
+- `-le`: less than or equal.
+- `-gt`: greater than.
+- `-ge`: greater than or equal.
+
+**Note**: the usual operators `>`, `<`, `=`, etc. only work with string variables.
