@@ -2,9 +2,9 @@
 
 ## Interpreter Directives
 
-`\#!/bin/bash [-opts]`
+`#!/bin/bash [-opts]`
 
-`\#!/usr/bin/env bash`
+`#!/usr/bin/env bash`
 
 ## Make bash file executable
 `chmod u+x` *filename.sh*
