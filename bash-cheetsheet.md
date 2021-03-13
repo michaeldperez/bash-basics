@@ -3,6 +3,7 @@
 ## Interpreter Directives
 
 `\#!/bin/bash [-opts]`
+
 `\#!/usr/bin/env bash`
 
 ## Make bash file executable
